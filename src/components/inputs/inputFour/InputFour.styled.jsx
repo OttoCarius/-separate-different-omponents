@@ -19,11 +19,15 @@ export const StyledInput = styled.input`
     color: #e3d8d8;
     padding-left: 10px;
   }
-  @media screen and (min-width: 200px) and (max-width: 420px) {
-    width: 200px;
+  @media (max-width: 420px) {
+    width: 320px;
     margin-left: auto;
     margin-right: auto;
-  }
+    letter-spacing: 0.1em;
+    font-size: 12px;
+  } 
+   
+  
 
 `;
 
@@ -43,10 +47,5 @@ export const StyledSearch = styled.div`
   
 `;         
 
-//  .btn-grad:hover {
-//    background-position: right center; /* change the direction of the change here */
-//    color: #fff;
-//    text-decoration: none;
-//  }
 
  

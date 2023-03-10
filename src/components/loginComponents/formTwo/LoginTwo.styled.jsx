@@ -12,7 +12,9 @@ export const LoginContainer = styled.div`
 
   @media (max-width: 440px) {
     width: 280px;
+    height: 440px;
   }
+
 
 `;
 

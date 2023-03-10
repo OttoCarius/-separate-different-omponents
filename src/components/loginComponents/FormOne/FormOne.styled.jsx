@@ -2,21 +2,21 @@ import styled from "styled-components";
 
 export const FormBox = styled.div`
   position: relative;
-  width: 400px;
-  height: 440px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: transparent;
+  width: 400px;
+  height: 440px;
   border: 3px solid rgba(255,255,255, 0.5);
   border-radius: 25px;
   backdrop-filter: blur(35px);
 
- 
-
   @media (max-width: 440px) {
     width: 280px;
+    height: 440px;
   }
+
 `;
 
 

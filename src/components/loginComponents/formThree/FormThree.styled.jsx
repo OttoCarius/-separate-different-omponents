@@ -20,8 +20,8 @@ export const Form = styled.form`
 
   @media (max-width: 440px) {
     width: 280px;
+    height: 440px;
   }
-
 
 `;
 

@@ -7,18 +7,20 @@ export const StyledInput = styled.input`
   width: 532px;
   height: 50px;
   border-radius: 20px;
-  box-shadow: 1px 9px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 9px 20px 10px rgba(0, 0, 0, 0.6);
   text-align: center;
   display: flex;
   margin-bottom: 20px;
   ::placeholder {
     text-align: center;
   }
-  @media screen and (min-width: 200px) and (max-width: 420px) {
-    width: 200px;
+  @media (max-width: 420px) {
+    width: 320px;
     margin-left: auto;
     margin-right: auto;
-  }
+    letter-spacing: 0.9em;
+    font-size: 12px;
+  } 
 
 `;
 

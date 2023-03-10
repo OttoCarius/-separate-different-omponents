@@ -17,6 +17,6 @@ export const WrapBtn = styled.div`
   @media (max-width: 440px) {
 justify-content: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 70px;
   }
 `

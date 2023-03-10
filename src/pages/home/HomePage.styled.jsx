@@ -5,6 +5,14 @@ export const HomeWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 40px;
+
+
+  @media (max-width: 440px) {
+    margin: 0 20px;
+  }
+
+
 
   h2 {
     font-size: 36px;
@@ -16,7 +24,16 @@ export const HomeWrap = styled.div`
     -webkit-background-clip: text;
     background-clip: #2aa5a0;
     -webkit-text-fill-color: transparent;
+    text-align: center;
+
+    @media (max-width: 460px) {
+    font-size: 26px;
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
+  }
+
+ 
 
   p {
     font-size: 28px;
@@ -26,5 +43,13 @@ export const HomeWrap = styled.div`
     -webkit-background-clip: text;
     background-clip: #2aa5a0;
     -webkit-text-fill-color: transparent;
+    text-align: center;
+    
+    @media (max-width: 460px) {
+    font-size: 20px;
   }
+  }
+
+ 
+  
 `;
