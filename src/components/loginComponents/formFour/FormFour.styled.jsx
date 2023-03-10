@@ -12,9 +12,14 @@ export const Wrap = styled.div`
   position: relative;
   overflow: hidden;
 
-  @media (max-width: 400px) {
+  @media (max-width: 420px) {
+    width: 340px;
+    height: 440px;
+  }
+
+  @media (max-width: 340px) {
     width: 300px;
-  height: 440px;
+    height: 440px;
   }
 
 

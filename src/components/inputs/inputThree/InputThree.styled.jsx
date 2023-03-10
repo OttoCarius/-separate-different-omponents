@@ -8,12 +8,18 @@ export const StyledInput = styled.input`
   height: 50px;
   border-radius: 20px;
   box-shadow: 8px 9px 20px 10px rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(to right, #de9099 0%, #bff8ff  51%, #db8690  100%);
   text-align: center;
   display: flex;
   margin-bottom: 20px;
+
+  
   ::placeholder {
     text-align: center;
+    color: #2f3232;
   }
+
+
   @media (max-width: 420px) {
     width: 320px;
     margin-left: auto;
@@ -35,6 +41,8 @@ export const StyledSearch = styled.div`
   padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
-  color:#313131;
+  color:#100f0f;
   
 `;
+
+        

@@ -12,8 +12,13 @@ export const FormBox = styled.div`
   border-radius: 25px;
   backdrop-filter: blur(35px);
 
-  @media (max-width: 440px) {
-    width: 280px;
+  @media (max-width: 420px) {
+    width: 340px;
+    height: 440px;
+  }
+
+  @media (max-width: 340px) {
+    width: 300px;
     height: 440px;
   }
 
