@@ -96,6 +96,16 @@ export const InputBox = styled.div`
   width: 300px;
   margin-top: 35px;
 
+  @media (max-width: 440px) {
+    width: 280px;
+
+  }
+
+  @media (max-width: 340px) {
+    width: 240px;
+
+  }
+
   input {
     position: relative;
     width: 100%;
